@@ -13,6 +13,7 @@ int main(int argc, char** argv)
   Box boxE;boxE.name = "boxE";
   Box boxF;boxF.name = "boxF";
 
+
   vector <Box*> user_boxes;
   for (int i = 1; i < argc; ++i) {
       cout << "Creating user-defined box: " <<  argv[i] << endl; 
