@@ -10,6 +10,11 @@ Box::Box() {
     color = "green";
 }
 
+
+
+
+
+
 void Box::report(bool also_to_file) {
     cout << " Name: " << name << endl;
     cout << " Length: " << length << endl;
